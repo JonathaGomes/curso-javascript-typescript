@@ -1,0 +1,93 @@
+:root {
+  --primary-color: rgb(13, 106, 134);
+  --primary-color--dark: rgb(13, 58, 71);
+}
+
+* {
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--primary-color);
+  font-family: "Nunito", sans-serif;
+  font-size: 1.3rem;
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 640px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #fafafa;
+  border-radius: 5px;
+}
+
+form input,
+form label,
+form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+form input {
+  font-size: 1.5rem;
+  padding: 1.5rem;
+  height: 3rem;
+  border-radius: 10px;
+}
+
+form input:focus {
+  border: 2px solid var(--primary-color);
+}
+
+form button {
+  margin-top: 2rem;
+  border: none;
+  background-color: var(--primary-color);
+  font-size: 1.5rem;
+  font-weight: bold;
+  height: 3rem;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+
+form button:hover {
+  background-color: var(--primary-color--dark);
+}
+
+input {
+  height: 2rem;
+  border: 1px solid #aaa;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+
+button {
+  height: 2rem;
+  width: 8rem;
+  border: none;
+  background-color: var(--primary-color);
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: background 0.5s;
+}
+
+button:hover {
+  background-color: var(--primary-color--dark);
+}
+
+li {
+  margin-top: 10px;
+}
+
+li button {
+  margin-left: 20px;
+}
